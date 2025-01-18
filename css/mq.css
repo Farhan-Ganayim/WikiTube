@@ -1,0 +1,40 @@
+@media (width < 800px) {
+    header {
+        h1 {
+            font-size: 2em;
+        }
+
+        .search-section {
+            margin-right: 0;
+        }
+    }
+
+}
+
+@media (width < 620px) {
+
+    .grid-container {
+        grid-template-columns: 1fr;
+        gap: .5em;
+    }
+
+    header {
+        .search-section .search-input {
+            width: 10em;
+        }
+    }
+
+    .video-list,
+    .video-player,
+    .wiki-container {
+        grid-column: 1;
+    }
+
+    .video-list {
+        grid-row: 2;
+    }
+
+
+
+
+}
