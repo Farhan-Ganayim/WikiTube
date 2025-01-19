@@ -1,5 +1,3 @@
-/* @import 'mq.css'; */
-
 body {
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
@@ -8,7 +6,6 @@ body {
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    grid-template-rows: auto 1fr;
     background-color: #ff7f50;
     gap: 10px;
     height: 100vh;
@@ -22,7 +19,7 @@ header {
     align-items: center;
     background-color: #ff7f50;
     padding: 0 1em;
-    
+
     h1 {
         color: black;
         font-size: 3em;
@@ -48,6 +45,10 @@ header {
     background-color: #333;
     color: white;
     padding: .5em;
+
+    .video-in-list:hover {
+        cursor: pointer;
+    }
 }
 
 .video-player {
@@ -56,13 +57,15 @@ header {
     color: white;
     border-radius: .5em;
     justify-items: center;
-
     iframe {
         border: none;
         border-radius: .5em;
     }
 }
 
+.wiki-container h2 {
+    margin: 0;
+}
 .wiki-results {
     grid-column: 2;
     grid-row: 2;
@@ -70,6 +73,3 @@ header {
     padding: 1em;
     border-radius: .5em;
 }
-
-
-
