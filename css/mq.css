@@ -34,7 +34,12 @@
         grid-row: 2;
     }
 
+    iframe {
+        width: 85vw;
+    }
 
-
-
+    .video-list {
+        width: 85vw;
+        place-self: center;
+    }
 }
